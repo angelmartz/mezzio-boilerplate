@@ -1,4 +1,4 @@
-# Mezzio Skeleton and Installer
+# Mezzio Boilerplate
 
 [![Build Status](https://travis-ci.com/mezzio/mezzio-skeleton.svg?branch=master)](https://travis-ci.com/mezzio/mezzio-skeleton)
 [![Coverage Status](https://coveralls.io/repos/github/mezzio/mezzio-skeleton/badge.svg?branch=master)](https://coveralls.io/github/mezzio/mezzio-skeleton?branch=master)
