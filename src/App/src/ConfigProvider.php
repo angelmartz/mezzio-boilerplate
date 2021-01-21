@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace App;
 
+use Mezzio\Application;
+
 /**
  * The configuration provider for the App module
  *
@@ -52,5 +54,10 @@ class ConfigProvider
                 'layout' => [__DIR__ . '/../templates/layout'],
             ],
         ];
+    }
+
+    public function registerRoutes(Application $app): void
+    {
+        $app->get('/api/ping', Handler\PingHandler::class, 'api.ping');
     }
 }
